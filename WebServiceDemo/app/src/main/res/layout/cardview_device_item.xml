@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cardViewDeviceItem">
+
+
+        <RelativeLayout
+            android:id="@+id/layoutCardViewCotent"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@android:color/background_light"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/textViewDeviceName"
+                android:text="Device Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="24sp"
+                android:paddingBottom="16dp" />
+            <TextView
+                android:id="@+id/textViewDeviceBrand"
+                android:text="brand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_alignParentBottom="true" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
